@@ -1,0 +1,12 @@
+import requests
+cookies = {
+    'SESSDATA': 'c73585d9%2C1695740224%2Cc461f%2A31'
+}
+url = 'https://www.bilibili.com/video/BV1fK4y1t7hj/?spm_id_from=333.337.search-card.all.click&vd_source=9a85ee2fd9a29edad22908bb547718f9'
+resp = requests.get(url, cookies=cookies)
+with open('bili.html', 'w', encoding='U8') as f:
+    f.write(resp.text)
+
+'https://cn-hbwh-cm-01-01.bilivideo.com/upgcxcode/02/64/1060576402/1060576402_nb3-1-30280.m4s?e=ig8euxZM2rNcNbdlhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&uipk=5&nbs=1&deadline=1680195605&gen=playurlv2&os=bcache&oi=3549362003&trid=00005e2fdbc128b54b42bab785e401461b7fu&mid=438162145&platform=pc&upsig=b45fa3e5e71efc93aae38fa3b62e9a65&uparams=e,uipk,nbs,deadline,gen,os,oi,trid,mid,platform&cdnid=10197&bvc=vod&nettype=0&orderid=0,3&buvid=E99B81BB-6571-0F50-92BD-53B7D40E6B7032816infoc&build=0&agrr=1&bw=19330&logo=80000000'
+'https://cn-hbwh-cm-01-01.bilivideo.com/upgcxcode/02/64/1060576402/1060576402_nb3-1-30280.m4s?e=ig8euxZM2rNcNbdlhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&uipk=5&nbs=1&deadline=1680195605&gen=playurlv2&os=bcache&oi=3549362003&trid=00005e2fdbc128b54b42bab785e401461b7fu&mid=0&platform=pc&upsig=b45fa3e5e71efc93aae38fa3b62e9a65&uparams=e,uipk,nbs,deadline,gen,os,oi,trid,mid,platform&cdnid=10197&bvc=vod&nettype=0&orderid=0,3&buvid=E99B81BB-6571-0F50-92BD-53B7D40E6B7032816infoc&build=0&agrr=1&bw=19330&logo=80000000'
+'https://cn-hbwh-cm-01-01.bilivideo.com/upgcxcode/02/64/1060576402/1060576402_nb3-1-30032.m4s?e=ig8euxZM2rNcNbdlhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&uipk=5&nbs=1&deadline=1680196016&gen=playurlv2&os=bcache&oi=3549361989&trid=0000aecdc4a47d434508a5d014566b6c49e8u&mid=0&platform=pc&upsig=38fb360d88393c4a38d8bc8271aa05a3&uparams=e,uipk,nbs,deadline,gen,os,oi,trid,mid,platform&cdnid=10197&bvc=vod&nettype=0&orderid=0,3&buvid=&build=0&agrr=1&bw=58572&logo=80000000'

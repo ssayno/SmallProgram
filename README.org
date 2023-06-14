@@ -2,3 +2,7 @@
 1. youtube-comments: 下载 YouTube 评论的东西
 2. youtube-video: 下载 youtube 视频
 3. zbf: 微信小程序 圳帮扶信息的获取
+4. douyin: 抖音视频的抓取
+5. dangdang: 当当图书网
+6. kuwo: 酷我音乐提取
+7. bilibili; bilibili 视频的下载 
